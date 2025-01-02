@@ -20,7 +20,6 @@ def passValidator(pwd):
     if(valueSaved):
         print("Select a Strong Password These Passwords are Common and cause threats !")
         return
-    print(f"-------this is the {pwd}=======didn't change as made in local (understand local scope and globals cope )")
     for eachChar in pwd:
         if eachChar.islower():
             has_SmChar = True
